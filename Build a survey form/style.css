@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    background-image: url(https://aws1.discourse-cdn.com/sitepoint/original/3X/d/b/dbc9fb05b378cd70653f5246b5aec87c5a0d8db0.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+ color: #fff;
+}
+.heading {
+    text-align: center;
+    width: 100%;
+    margin:auto;
+    margin-top: 60px;
+}
+#title {
+    font-size:3.5em;
+
+}
+#description {
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+ #content1 {
+    width: 90%;
+    margin:auto;
+    
+}
+#survey-form {
+    background-color: rgba (0,0,0,0.9);
+   padding-top: 34px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 54%;
+   border-radius:5px;
+   margin:auto;
+   margin-top: 10px;
+   padding-bottom: 60px;
+}
+form .box {
+    width:98.5%;
+    height:2.8em;
+   position: relative;
+   bottom: 0;
+   border:0;
+   border-radius: 5px;
+}
+#option1 select {
+    width:98.5%;
+    height:2.7em;
+    position: relative;
+    bottom: 10px;
+}
+#option2 select {
+    width:98.5%;
+    height:2.7em;
+    position: relative;
+    top: 10px;
+}
+#content2 {
+    margin-top: 10px;
+}
+#content2 textarea {
+    width: 98.5%;
+    height: 125px;
+    position: relative;
+    bottom: 10px;
+    
+}
+button {
+    width:98.5%;
+    height: 3em;
+    position: relative;
+    top: 11px;
+    background-color: rgba(253, 0, 169, 0.705);
+color: rgb(255,255,2555);
+    border: none;
+    margin-bottom:10px;
+    cursor: pointer;
+}
+textarea::placeholder {
+    font-size: 1.4em;
+    position: relative;
+    top:8px;
+    left:5px;
+    width: 70%;
+}
+input.larger {
+    width: 20px;
+    height:20px;
+}
+@media screen and (max-width: 600px){
+    form{ 
+        width:100%
+        margin:auto;
+    }
+}
